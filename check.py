@@ -1,4 +1,4 @@
-file = open('/mlops/Main_Build.py','r')
+file = open('/root/task3/Main_Build.py','r')
 key = file.read()				
 
 if 'keras' or 'tensorflow' in key:		
