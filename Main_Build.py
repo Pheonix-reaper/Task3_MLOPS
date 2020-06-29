@@ -49,7 +49,7 @@ num_pixels = x_train.shape[1] * x_train.shape[2]
 # In[19]:
 
 
-file = open("input.txt","r")  
+file = open("/root/task3/input.txt","r")  
 
 build=int(file.readline()) 
  
