@@ -49,25 +49,20 @@ num_pixels = x_train.shape[1] * x_train.shape[2]
 # In[19]:
 
 
-#file = open("/root/task3/input.txt","r")  
-
-build=int(1) #int(file.readline()) 
  
-layer=int(10) #(file.readline()) 
 
-pool=int(4) #int(file.readline()) 
+build=int(1) 
+ 
+layer=int(10) 
 
-stride=int(4) #int(file.readline()) 
+pool=int(4) 
 
-epoch=int(2) #int(file.readline())
+stride=int(4) 
 
-#line1=file.readline()
+epoch=int(2)
 
-#line2=file.readline()
 
-#line3=file.readline()
 
-#file.close()
 
 
 # In[20]:
@@ -84,9 +79,6 @@ model.add(Activation("relu"))
 model.add(MaxPooling2D(pool_size = (pool, pool), strides = (stride, stride)))
 
 #convolutional layer
-line1
-line2
-line3
 
 # Fully connected layers (w/ RELU)
 model.add(Flatten())
