@@ -49,26 +49,6 @@ num_pixels = x_train.shape[1] * x_train.shape[2]
 # In[19]:
 
 
-file = open("/root/task3/input.txt","r")  
-
-build=int(file.readline()) 
- 
-layer=int(file.readline()) 
-
-pool=int(file.readline()) 
-
-stride=int(file.readline()) 
-
-epoch=int(file.readline())
-
-line1=file.readline()
-
-line2=file.readline()
-
-line3=file.readline()
-
-file.close()
-
 
 # In[20]:
 
